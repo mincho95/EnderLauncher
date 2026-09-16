@@ -4,7 +4,7 @@ Le launcher ne sait rien du pack : il demande tout à un service HTTP. Ce dossie
 l'installe.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/minoche95/EnderLauncher/master/server/install.sh -o install.sh
+curl -fsSL https://raw.githubusercontent.com/mincho95/EnderLauncher/master/server/install.sh -o install.sh
 bash install.sh --url https://index.enderhost.info
 ```
 

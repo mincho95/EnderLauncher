@@ -31,7 +31,7 @@ PANEL=1
 PANEL_PORT=8088
 PANEL_BIND="127.0.0.1"
 REF="master"
-RAW="https://raw.githubusercontent.com/minoche95/EnderLauncher"
+RAW="https://raw.githubusercontent.com/mincho95/EnderLauncher"
 
 die()  { printf '\n\033[31mErreur :\033[0m %s\n' "$*" >&2; exit 1; }
 step() { printf '\n\033[36m==>\033[0m \033[1m%s\033[0m\n' "$*"; }

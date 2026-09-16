@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/minoche95/EnderLauncher/releases/latest"><img src="https://img.shields.io/github/v/release/minoche95/EnderLauncher?style=for-the-badge&label=version" alt="Dernière version"></a>
-  <a href="https://github.com/minoche95/EnderLauncher/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/minoche95/EnderLauncher/build.yml?branch=master&style=for-the-badge&label=build" alt="État du build"></a>
+  <a href="https://github.com/mincho95/EnderLauncher/releases/latest"><img src="https://img.shields.io/github/v/release/mincho95/EnderLauncher?style=for-the-badge&label=version" alt="Dernière version"></a>
+  <a href="https://github.com/mincho95/EnderLauncher/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/mincho95/EnderLauncher/build.yml?branch=master&style=for-the-badge&label=build" alt="État du build"></a>
   <img src="https://img.shields.io/badge/Electron-40-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron 40">
   <img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=for-the-badge" alt="Minecraft 1.21.1">
 </p>
@@ -21,10 +21,10 @@
 
 | Plateforme | Fichier |
 |---|---|
-| Windows 64 bits | [`Ender-Launcher-win-x64.exe`](https://github.com/minoche95/EnderLauncher/releases/latest/download/Ender-Launcher-win-x64.exe) |
-| Windows ARM64 | [`Ender-Launcher-win-arm64.exe`](https://github.com/minoche95/EnderLauncher/releases/latest/download/Ender-Launcher-win-arm64.exe) |
-| macOS (Intel et Apple Silicon) | [`Ender-Launcher-mac-universal.dmg`](https://github.com/minoche95/EnderLauncher/releases/latest/download/Ender-Launcher-mac-universal.dmg) |
-| Linux | [`Ender-Launcher-linux-x86_64.AppImage`](https://github.com/minoche95/EnderLauncher/releases/latest/download/Ender-Launcher-linux-x86_64.AppImage) |
+| Windows 64 bits | [`Ender-Launcher-win-x64.exe`](https://github.com/mincho95/EnderLauncher/releases/latest/download/Ender-Launcher-win-x64.exe) |
+| Windows ARM64 | [`Ender-Launcher-win-arm64.exe`](https://github.com/mincho95/EnderLauncher/releases/latest/download/Ender-Launcher-win-arm64.exe) |
+| macOS (Intel et Apple Silicon) | [`Ender-Launcher-mac-universal.dmg`](https://github.com/mincho95/EnderLauncher/releases/latest/download/Ender-Launcher-mac-universal.dmg) |
+| Linux | [`Ender-Launcher-linux-x86_64.AppImage`](https://github.com/mincho95/EnderLauncher/releases/latest/download/Ender-Launcher-linux-x86_64.AppImage) |
 
 Les liens pointent toujours vers la dernière version. Une fois installé, le launcher se met à jour tout seul.
 
@@ -105,7 +105,7 @@ flowchart LR
 Installation de l'index, du panneau et de la page de téléchargement :
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/minoche95/EnderLauncher/master/server/install.sh -o install.sh
+curl -fsSL https://raw.githubusercontent.com/mincho95/EnderLauncher/master/server/install.sh -o install.sh
 bash install.sh --url https://index.example.org
 ```
 
@@ -173,7 +173,7 @@ la version avant de pousser un changement destiné aux joueurs.
 ## Crédits et licence
 
 Ender Launcher est un fork de **[Selvania Launcher](https://github.com/luuxis/Selvania-Launcher)**, créé par
-**[Luuxis](https://github.com/luuxis)**. Adaptation pour EnderCraft, index et panneau côté serveur : [Paul Féry](https://github.com/minoche95).
+**[Luuxis](https://github.com/luuxis)**. Adaptation pour EnderCraft, index et panneau côté serveur : [Paul Féry](https://github.com/mincho95).
 
 📝 Licence : Luuxis License v1.0 (voir fichier [LICENSE](../LICENSE.md) pour les détails en FR/EN)
 
